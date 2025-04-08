@@ -1,8 +1,9 @@
-// Lấy nút từ DOM
+// Lấy các phần tử từ HTML
 const actionButton = document.getElementById('actionButton');
+const memberInfo = document.getElementById('memberInfo');
 
-// Thêm sự kiện click vào nút
+// Thêm sự kiện khi nhấn nút
 actionButton.addEventListener('click', function() {
-    // Hiển thị thông báo với tên các thành viên nhóm
-    alert("Tom: thuyhien, Jerry: baongoc, Spike: anhkhoa");
+    // Đổi display thành 'flex' để hiển thị phần thông tin nhóm
+    memberInfo.style.display = 'flex';
 });
