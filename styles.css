@@ -1,9 +1,17 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
     margin-top: 50px;
-    background-color: #f0f8ff;
+    background-color: #c6efff;
+  }
+
+  header {
+    text-align: center;
+    color: rgb(0, 2, 105);
+  }
+
+  main {
+    text-align: center;
   }
   
   button {
@@ -24,5 +32,10 @@ body {
     margin-top: 20px;
     font-size: 20px;
     color: #333;
+  }
+
+  code {
+    color: crimson;
+    font-size: 17px;
   }
   
