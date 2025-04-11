@@ -1,4 +1,4 @@
-## 🎮 Cách chạy game
+## 🎮 Cách chạy
 
 ```bash
 git clone https://github.com/damthuyhien/TomandJerry.git
